@@ -15,19 +15,30 @@ Viikko 2 tehtävässä päädyttiin melko samanlaiseen sovellukseen kuin ensimm�
 
 ---
 
-## Rakenne:
-/week2_taskviewmodel/domain/
--MockTasks.kt
-  *Sisältää kaikki hard koodatut mockTaskit eli Task luokan elementtejä valmiilla arvoilla, joilla sitten alustetaan Task lista
--Task.kt
-  *Sisältää Task luokan määrittelyn, id, title, description, priority, dueDate, done
--TaskFunctions.kt
-  *Viime viikon tehtävästä jäänyt raunio jota ei enää käytetä. Sisältää perus funktioita task listan muokkaamiseen
+## Rakenne
 
-/week2_taskviewmodel/ui/
--HomeScreen.kt
-  *Luo kaikki UI komponentit ja kutsuu funktioita TaskViewmodel.kt
-  
-/week2_taskviewmodel/viewmodel/
--TaskViewModel
-  *Sisältää Task listan muokkaamiseen tarvittavat funktiot kuten, addTask, toggleDone, removeTask, filterByDone, sortByDueDate, resetTasks
+### /week2_taskviewmodel/domain/
+
+**MockTasks.kt**  
+Sisältää kaikki hard koodatut mockTaskit eli Task luokan elementtejä valmiilla arvoilla, joilla sitten alustetaan Task lista
+
+**Task.kt**  
+Sisältää Task luokan määrittelyn, id, title, description, priority, dueDate, done
+
+**TaskFunctions.kt**  
+Viime viikon tehtävästä jäänyt raunio jota ei enää käytetä. Sisältää perus funktioita task listan muokkaamiseen
+
+---
+
+### /week2_taskviewmodel/ui/
+
+**HomeScreen.kt**  
+Luo kaikki UI komponentit ja kutsuu funktioita TaskViewmodel.kt
+
+---
+
+### /week2_taskviewmodel/viewmodel/
+
+**TaskViewModel**  
+Sisältää Task listan muokkaamiseen tarvittavat funktiot kuten, addTask, toggleDone, removeTask, filterByDone, sortByDueDate, resetTasks
+
