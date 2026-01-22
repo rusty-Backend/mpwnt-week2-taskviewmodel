@@ -1,6 +1,9 @@
 # mpwnt-week2-taskviewmodel
 mobile-programmin-with-native-technologies channel week 2 taskviewmodel
 
+## Video
+https://www.youtube.com/shorts/uGDeJuJoctA
+
 ## Kuvaus
 
 Viikko 2 tehtävässä päädyttiin melko samanlaiseen sovellukseen kuin ensimmäisellä viikolla. Käyttäjä pystyy lisämään taskin listaan, suodatamaan task listan joko päivämäärän tai tehdyn taskin perusteella ja merkkaamaan taskin tehdyksi tai ei tehdyksi.
